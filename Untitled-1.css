@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 60px;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  justify-content: center; 
+  padding: 20px 0;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; 
+}
+.nav-links li {
+  margin: 0;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.2em;
+  padding: 10px 15px;
+  border-radius: 30px;
+  transition: 0.3s;
+}
+.nav-links a:hover {
+  background-color: #000;
+  color: #fff;
+}
+body{
+    background: url(assets/boat.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  justify-items: center; 
+}
+
+div img {
+  width: 400px;     
+  height: 300px;      
+  object-fit: cover;  
+  border: 2px solid rgb(65, 64, 64);
+  border-radius: 13px;
+  box-shadow: 4px 7px 7px 0px black;
+  cursor: pointer;
+  transition: transform 400ms, filter 400ms;
+}
+
+div img:hover {
+  transform: scale(1.05);
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+
+
